@@ -20,7 +20,7 @@ function AddTodoFrom(props) {
             <h1 className="text-2xl font-medium "> Manage Activities</h1>
             <div>
                 <input value={newactivity} onChange={handlechange} type="text" className="border-black  p-1 bg-white w-fit" placeholder="Next Activity?"></input>
-                <button onClick={addActivity} className="bg-black mx-2 text-white p-1 border border-black w-fit">ADD</button>
+                <button onClick={addActivity} className="bg-black  text-white p-1 border border-black w-fit">ADD</button>
             </div>
         </div>
     )
